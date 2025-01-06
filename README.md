@@ -1,6 +1,6 @@
 # Trending Topics Web Scrapper
 
-A Flask-based web application that retrieves and displays top five trending topics along with metadata and stores query details in a MongoDB database. This project uses Selenium for scraping, Flask for the web framework, and MongoDB for data storage.
+A Flask-based web application that retrieves and displays top five trending topics from Twitter homepage along with metadata and stores query details in a MongoDB database. This project uses Selenium for scraping, Flask for the web framework, and MongoDB for data storage.
 
 ---
 
