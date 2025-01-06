@@ -41,13 +41,13 @@ Create a `.env` file in the root directory and add the following:
 
 ```plaintext
 MONGO_URI=your_mongodb_connection_string
-DB_NAME=your_database_name
 CHROMEDRIVER_PATH=/path/to/chromedriver
 FLASK_SECRET_KEY=your_secret_key
+TWITTER_USER=twitter_username
+TWITTER_PASS=twitter_password
 ```
 
 - **MONGO_URI**: MongoDB connection string (e.g., `mongodb://localhost:27017`)
-- **DB_NAME**: Name of the MongoDB database.
 - **CHROMEDRIVER_PATH**: Full path to the ChromeDriver executable.
 
 ### ProxyMesh Integration
@@ -58,9 +58,9 @@ FLASK_SECRET_KEY=your_secret_key
 
 2. **Add ProxyMesh Credentials to `.env`**
    ```env
-   PROXYMESH_URL=http://<proxy_username>:<proxy_password>@proxy.proxy-mesh.com:8080
-   PROXYMESH_USERNAME=<your_proxymesh_username>
-   PROXYMESH_PASSWORD=<your_proxymesh_password>
+   PROXY_URL=http://<proxy_username>:<proxy_password>@proxy.proxy-mesh.com:8080 (Replace with your proxymesh url)
+   PROXY_USER=<your_proxymesh_username>
+   PROXY_PASS=<your_proxymesh_password>
    ```
 
 ---
