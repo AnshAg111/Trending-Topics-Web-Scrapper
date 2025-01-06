@@ -1,0 +1,7 @@
+selenium 
+pymongo 
+requests 
+flask 
+dnspython
+python-dotenv
+os

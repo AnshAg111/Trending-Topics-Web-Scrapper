@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trending Topics</title>
+</head>
+<body>
+    <h1>These are the most happening topics as on {{ timestamp }}:</h1>
+    <ul>
+        {% for trend in trends %}
+        <li>{{ trend }}</li>
+        {% endfor %}
+    </ul>
+    <p>The IP address used for this query was {{ ip_address }}.</p>
+    <h2>Here’s a JSON extract of this record from the MongoDB:</h2>
+    <pre>{{ json_record }}</pre>
+    <a href="/run-script">Click here to run the query again</a>
+</body>
+</html>
